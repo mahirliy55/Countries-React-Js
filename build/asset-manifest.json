@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Countries-React-Js/static/css/main.88889fea.chunk.css",
+    "main.js": "/Countries-React-Js/static/js/main.2498f853.chunk.js",
+    "main.js.map": "/Countries-React-Js/static/js/main.2498f853.chunk.js.map",
+    "runtime-main.js": "/Countries-React-Js/static/js/runtime-main.beac4a51.js",
+    "runtime-main.js.map": "/Countries-React-Js/static/js/runtime-main.beac4a51.js.map",
+    "static/js/2.439ad1c1.chunk.js": "/Countries-React-Js/static/js/2.439ad1c1.chunk.js",
+    "static/js/2.439ad1c1.chunk.js.map": "/Countries-React-Js/static/js/2.439ad1c1.chunk.js.map",
+    "index.html": "/Countries-React-Js/index.html",
+    "static/css/main.88889fea.chunk.css.map": "/Countries-React-Js/static/css/main.88889fea.chunk.css.map",
+    "static/js/2.439ad1c1.chunk.js.LICENSE.txt": "/Countries-React-Js/static/js/2.439ad1c1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.beac4a51.js",
+    "static/js/2.439ad1c1.chunk.js",
+    "static/css/main.88889fea.chunk.css",
+    "static/js/main.2498f853.chunk.js"
+  ]
+}
