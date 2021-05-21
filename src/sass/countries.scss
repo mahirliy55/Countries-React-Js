@@ -1,0 +1,55 @@
+.countries {
+  padding: 10px;
+  .container {
+    width: 97%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .title {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  .flag {
+    width: 21%;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 7rem;
+    box-shadow: 0px 1px 3px 3px rgba(34, 60, 80, 0.185);
+
+    margin: 1rem 2rem;
+  }
+  .flag img {
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .content {
+    padding: 2rem 2rem;
+    line-height: 27px;
+  }
+  .content h3 {
+    font-weight: 600;
+  }
+  .content span {
+    margin-left: 5px;
+    font-weight: 100;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .countries{
+    .container{
+      width: 100%;
+      padding: 0;
+    }
+    .title{
+      flex-direction: column;
+    }
+    .flag{
+      width: 80%;
+      margin: 1rem auto;
+    }
+  }
+}

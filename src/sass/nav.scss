@@ -1,0 +1,47 @@
+.nav {
+  box-shadow: 0px 1px 6px 1px rgba(34, 60, 80, 0.185);
+  padding: 20px;
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    @include breakpoint(mobileonly) {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo h2 {
+    font-weight: 700;
+    font-size: 22px;
+    font-family: sans-serif;
+    @include breakpoint(mobileonly) {
+      font-size: 17px;
+    }
+  }
+  .mode {
+    display: flex;
+    align-items: center;
+  }
+  .mode span {
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+    @include breakpoint(mobileonly) {
+      font-size: 15px;
+    }
+  }
+}
+
+.dark__mode {
+  background-color: #2b3743 !important;
+}
+.white {
+  color: #fff;
+}
